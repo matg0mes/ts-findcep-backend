@@ -1,14 +1,15 @@
 import { Request, Response } from "express";
+import { AdressService } from "../services/AddressService";
 
 class AddressController {
-  constructor() {}
-
   async findByCep(request: Request, response: Response) {
     try {
       const { cep } = request.params;
-      console.log(cep);
 
-      return response.json({ message: "Hello World!" });
+      const serviceAddress = new AdressService();
+      const address = await serviceAddress.findByCep(cep);
+
+      return response.json(address);
     } catch (err) {
       return response.status(400).json({
         message: err.message,

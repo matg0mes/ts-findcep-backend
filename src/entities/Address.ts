@@ -14,10 +14,22 @@ class Address {
   id: string;
 
   @Column()
-  username: string;
+  zipCode: string;
 
   @Column()
-  chat: boolean;
+  street: string;
+
+  @Column()
+  complement: string;
+
+  @Column()
+  neighborhood: string;
+
+  @Column()
+  city: string;
+
+  @Column()
+  state: string;
 
   @UpdateDateColumn()
   updated_at: Date;
