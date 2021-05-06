@@ -1,4 +1,4 @@
-import { RequestHandler, RouterOptions } from "express";
+import { RequestHandler } from "express";
 
 export interface Route {
   method: "get" | "post" | "delete" | "options" | "put";

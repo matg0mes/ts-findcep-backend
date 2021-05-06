@@ -9,7 +9,7 @@ import {
 import { v4 as uuid } from "uuid";
 
 @Entity("address")
-class Setting {
+class Address {
   @PrimaryColumn()
   id: string;
 
@@ -32,4 +32,4 @@ class Setting {
   }
 }
 
-export { Setting };
+export { Address };
