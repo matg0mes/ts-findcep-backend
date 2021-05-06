@@ -14,7 +14,7 @@ class AddressDTO {
   state: string;
 
   constructor({ cep, logradouro, complemento, bairro, localidade, uf }: any) {
-    this.zipCode = cep.replace(/[^0-9]+/g, "");
+    this.zipCode = cep?.replace(/[^0-9]+/g, "");
     this.street = logradouro;
     this.complement = complemento;
     this.neighborhood = bairro;

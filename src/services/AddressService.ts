@@ -4,7 +4,7 @@ import { Address } from "../entities/Address";
 import { AddressRepository } from "../repositories/AddressRepository";
 import { ViaCepApi } from "./apis/ViaCepApi";
 
-class AdressService {
+class AddressService {
   addressRepository: Repository<Address>;
 
   constructor() {
@@ -37,4 +37,4 @@ class AdressService {
   }
 }
 
-export { AdressService };
+export { AddressService };

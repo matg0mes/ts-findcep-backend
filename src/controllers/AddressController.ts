@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
-import { AdressService } from "../services/AddressService";
+import { AddressService } from "../services/AddressService";
 
 class AddressController {
   async find(request: Request, response: Response) {
     try {
       const { state } = request.query;
 
-      const serviceAddress = new AdressService();
+      const serviceAddress = new AddressService();
       const addresses = await serviceAddress.find({ state });
 
       return response.json(addresses);
@@ -20,7 +20,7 @@ class AddressController {
     try {
       const { cep } = request.params;
 
-      const serviceAddress = new AdressService();
+      const serviceAddress = new AddressService();
       const address = await serviceAddress.findByCep(cep);
 
       return response.json(address);
