@@ -7,8 +7,14 @@ const addressController = new AddressController();
 const routes: Route[] = [
   {
     method: "get",
+    path: "/",
+    description: "get address",
+    action: addressController.find,
+  },
+  {
+    method: "get",
     path: "/:cep",
-    description: "Offer porto card",
+    description: "Get address by postal code",
     action: addressController.findByCep,
   },
 ];
