@@ -1,13 +1,3 @@
-
-
-<p align="center">
-  <a href="https://github.com/FoxGreedy">
-    <img src="https://i.imgur.com/RadC5Gt.png" width="160">
-  </a>
-</p>
-
-<hr />
-
 # About
 
 API cujo objetivo é retornar o endereço para o client-side através do envio de um código postal, esse endereço é armazenado em um banco de dados em memória (SQLite) que serve como cache para próximos retornos do mesmo endereço.
@@ -93,3 +83,11 @@ Revert:
 ```nodejs
     npm run migration:revert
 ```
+
+<hr />
+
+<p align="center">
+  <a href="https://github.com/FoxGreedy">
+    <img src="https://i.imgur.com/RadC5Gt.png" width="160">
+  </a>
+</p>
