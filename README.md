@@ -1,4 +1,13 @@
-# About
+# Findcep Backend
+
+<p>
+  
+  ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+  ![](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+  
+</p>
 
 API cujo objetivo é retornar o endereço para o client-side através do envio de um código postal, esse endereço é armazenado em um banco de dados em memória (SQLite) que serve como cache para próximos retornos do mesmo endereço.
 
