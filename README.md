@@ -11,6 +11,14 @@
 
 API cujo objetivo é retornar o endereço para o client-side através do envio de um código postal, esse endereço é armazenado em um banco de dados em memória (SQLite) que serve como cache para próximos retornos do mesmo endereço.
 
+# Ìndice
+
+- [Por que SQLite?](#por-que-sqlite)
+- [Como Utilizar](#como-utilizar)
+- [Iniciando a API](#iniciando-a-api)
+- [Testes unitários](#testes-unitarios)
+- [Migrations](#migrations)
+
 ## Por que SQLite?
 
 Foi utilizado SQLite por ele simular um mecanismo mais próximo do que consideramos cache do sistema, uma vez que ele armazena informações localmente visando melhorar a performance de consultas futuras.
