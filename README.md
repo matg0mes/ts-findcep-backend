@@ -16,7 +16,7 @@ API cujo objetivo é retornar o endereço para o client-side através do envio d
 - [Por que SQLite?](#por-que-sqlite)
 - [Como instalar?](#como-instalar)
 - [Iniciando a API](#iniciando-a-api)
-- [Testes unitários](#testes-unitarios)
+- [Testes unitários](#testes-unitários)
 - [Migrations](#migrations)
 
 ## Por que SQLite?
